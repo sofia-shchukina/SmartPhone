@@ -1,10 +1,10 @@
 import java.util.Arrays;
 
-public class Smartphone implements Radio, GPS{
+public class Smartphone implements Radio, GPS {
 
     String modelName;
     String manufacturerName;
-    Contact [] contacts;
+    Contact[] contacts;
 
     public Smartphone() {
     }

@@ -1,11 +1,11 @@
-public class Friend extends Contact{
+public class Friend extends Contact {
     String phoneNumber;
 
     public Friend() {
     }
 
     public Friend(String name, String phoneNumber) {
-        super();
+        this.name=name;
         this.phoneNumber = phoneNumber;
     }
 
